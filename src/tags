@@ -1,0 +1,421 @@
+AccountFromValue	rpcwallet.cpp	/^string AccountFromValue(const Value& value)$/
+AcentryToJSON	rpcwallet.cpp	/^void AcentryToJSON(const CAccountingEntry& acentry/
+AddCScript	keystore.cpp	/^bool CBasicKeyStore::AddCScript(const CScript& red/
+AddCryptedKey	crypter.cpp	/^bool CCryptoKeyStore::AddCryptedKey(const CPubKey /
+AddKey	keystore.cpp	/^bool CKeyStore::AddKey(const CKey &key) {$/
+AddKeyPubKey	crypter.cpp	/^bool CCryptoKeyStore::AddKeyPubKey(const CKey& key/
+AddOneShot	net.cpp	/^void AddOneShot(string strDest)$/
+AddOrphanTx	main.cpp	/^bool AddOrphanTx(const CTransaction& tx)$/
+AddTimeData	timedata.cpp	/^void AddTimeData(const CNetAddr& ip, int64_t nOffs/
+AddTransactionsUpdated	txmempool.cpp	/^void CTxMemPool::AddTransactionsUpdated(unsigned i/
+AddTxIndex	txdb-leveldb.cpp	/^bool CTxDB::AddTxIndex(const CTransaction& tx, con/
+AlreadyHave	main.cpp	/^bool static AlreadyHave(CTxDB& txdb, const CInv& i/
+AmountFromValue	rpcserver.cpp	/^int64_t AmountFromValue(const Value& value)$/
+AppInit	bitcoind.cpp	/^bool AppInit(int argc, char* argv[])$/
+AppendBlockFile	main.cpp	/^FILE* AppendBlockFile(unsigned int& nFileRet)$/
+AppliesTo	alert.cpp	/^bool CAlert::AppliesTo(int nVersion, std::string s/
+AppliesToMe	alert.cpp	/^bool CAlert::AppliesToMe() const$/
+AreInputsStandard	main.cpp	/^bool AreInputsStandard(const CTransaction& tx, con/
+AssertLockHeldInternal	sync.cpp	/^void AssertLockHeldInternal(const char *pszName, c/
+BIP32Hash	key.cpp	/^void static BIP32Hash(const unsigned char chainCod/
+BOOST_FOREACH	main.cpp	/^    BOOST_FOREACH(const CTxOut& txout, tx.vout) {$/
+BeginMessage	rpcnet.cpp	/^\/\/ ThreadRPCServer: holds cs_main and acquiring /
+Bind	init.cpp	/^bool static Bind(const CService &addr, bool fError/
+BlockFilePath	main.cpp	/^static filesystem::path BlockFilePath(unsigned int/
+CDBEnv	db.cpp	/^CDBEnv::~CDBEnv()$/
+CImportingNow	main.cpp	/^{$/
+CInv	protocol.cpp	/^CInv::CInv()$/
+CLockLocation	sync.cpp	/^{$/
+CMainSignals	main.cpp	/^struct CMainSignals {$/
+CMessageHeader	protocol.cpp	/^CMessageHeader::CMessageHeader()$/
+CNetAddr	netbase.cpp	/^CNetAddr::CNetAddr()$/
+CRPCConvertTable	rpcclient.cpp	/^CRPCConvertTable::CRPCConvertTable()$/
+CRPCTable	rpcserver.cpp	/^CRPCTable::CRPCTable()$/
+CService	protocol.cpp	/^CAddress::CAddress() : CService()$/
+CTxDB	txdb-leveldb.cpp	/^CTxDB::CTxDB(const char* pszMode)$/
+Cancels	alert.cpp	/^bool CAlert::Cancels(const CAlert& alert) const$/
+CastToBool	script.cpp	/^bool CastToBool(const valtype& vch)$/
+ChangeWalletPassphrase	wallet.cpp	/^bool CWallet::ChangeWalletPassphrase(const SecureS/
+Check	key.cpp	/^bool CKey::Check(const unsigned char *vch) {$/
+CheckBlockSignature	main.cpp	/^bool CBlock::CheckBlockSignature() const$/
+CheckDiskSpace	main.cpp	/^bool CheckDiskSpace(uint64_t nAdditionalBytes)$/
+CheckLockTime	script.cpp	/^static bool CheckLockTime(const CTransaction& txTo/
+CheckPubKeyEncoding	script.cpp	/^bool static CheckPubKeyEncoding(const valtype &vch/
+CheckSig	script.cpp	/^bool CheckSig(vector<unsigned char> vchSig, const /
+CheckSignatureElement	key.cpp	/^bool CKey::CheckSignatureElement(const unsigned ch/
+CheckSignatureEncoding	script.cpp	/^bool static CheckSignatureEncoding(const valtype &/
+CheckpointLSN	db.cpp	/^void CDBEnv::CheckpointLSN(const std::string& strF/
+ClearNew	addrman.cpp	/^void CAddrMan::ClearNew(int nUBucket, int nUBucket/
+ClientAllowed	rpcserver.cpp	/^bool ClientAllowed(const boost::asio::ip::address&/
+Close	db.cpp	/^void CDBEnv::Close()$/
+CloseDb	db.cpp	/^void CDBEnv::CloseDb(const string& strFile)$/
+CoinWeightCost	wallet.cpp	/^static uint64_t CoinWeightCost(const COutput &out)/
+CommandLineRPC	rpcclient.cpp	/^int CommandLineRPC(int argc, char *argv[])$/
+CompareBigEndian	key.cpp	/^int CompareBigEndian(const unsigned char *c1, size/
+ConnectSocket	netbase.cpp	/^bool ConnectSocket(const CService &addrDest, SOCKE/
+ConnectSocketByName	netbase.cpp	/^bool ConnectSocketByName(CService &addr, SOCKET& h/
+ConnectSocketDirectly	netbase.cpp	/^bool static ConnectSocketDirectly(const CService &/
+ContainsTx	txdb-leveldb.cpp	/^bool CTxDB::ContainsTx(uint256 hash)$/
+CopyNodeStats	rpcnet.cpp	/^static void CopyNodeStats(std::vector<CNodeStats>&/
+Copyright	addrman.cpp	/^\/\/ Copyright (c) 2012 Pieter Wuille$/
+Create	addrman.cpp	/^CAddrInfo* CAddrMan::Create(const CAddress &addr, /
+CreatePidFile	util.cpp	/^void CreatePidFile(const boost::filesystem::path &/
+Decode	key.cpp	/^void CExtKey::Decode(const unsigned char code[74])/
+DecodeDumpString	rpcdump.cpp	/^std::string DecodeDumpString(const std::string &st/
+DecodeDumpTime	rpcdump.cpp	/^int64_t DecodeDumpTime(const std::string& s)$/
+Decompress	key.cpp	/^bool CPubKey::Decompress() {$/
+Decrypt	crypter.cpp	/^bool CCrypter::Decrypt(const std::vector<unsigned /
+DecryptSecret	crypter.cpp	/^bool DecryptSecret(const CKeyingMaterial& vMasterK/
+Delete	addrman.cpp	/^void CAddrMan::Delete(int nId)$/
+Derive	key.cpp	/^bool CKey::Derive(CKey& keyChild, unsigned char cc/
+DumpAddresses	net.cpp	/^void DumpAddresses()$/
+ECC_InitSanityCheck	key.cpp	/^bool ECC_InitSanityCheck() {$/
+Encode	key.cpp	/^void CExtKey::Encode(unsigned char code[74]) const/
+EncodeDumpString	rpcdump.cpp	/^std::string static EncodeDumpString(const std::str/
+EncodeDumpTime	rpcdump.cpp	/^std::string static EncodeDumpTime(int64_t nTime) {/
+Encrypt	crypter.cpp	/^bool CCrypter::Encrypt(const CKeyingMaterial& vchP/
+EncryptKeys	crypter.cpp	/^bool CCryptoKeyStore::EncryptKeys(CKeyingMaterial&/
+EncryptSecret	crypter.cpp	/^bool EncryptSecret(const CKeyingMaterial& vMasterK/
+EncryptWallet	wallet.cpp	/^bool CWallet::EncryptWallet(const SecureString& st/
+EnsureWalletIsUnlocked	rpcwallet.cpp	/^void EnsureWalletIsUnlocked()$/
+EnterCritical	sync.cpp	/^void EnterCritical(const char* pszName, const char/
+EraseName	walletdb.cpp	/^bool CWalletDB::EraseName(const string& strAddress/
+EraseOrphanTx	main.cpp	/^void static EraseOrphanTx(uint256 hash)$/
+EraseTxIndex	txdb-leveldb.cpp	/^bool CTxDB::EraseTxIndex(const CTransaction& tx)$/
+ErrorReply	rpcserver.cpp	/^void ErrorReply(std::ostream& stream, const Object/
+FileCommit	util.cpp	/^void FileCommit(FILE *fileout)$/
+Find	addrman.cpp	/^CAddrInfo* CAddrMan::Find(const CNetAddr& addr, in/
+Flush	db.cpp	/^void CDBEnv::Flush(bool fShutdown)$/
+GenerateNewKey	wallet.cpp	/^CPubKey CWallet::GenerateNewKey()$/
+GetAccountAddress	rpcwallet.cpp	/^CBitcoinAddress GetAccountAddress(string strAccoun/
+GetAccountAddresses	rpcwallet.cpp	/^void GetAccountAddresses(string strAccount, set<CT/
+GetAccountBalance	rpcwallet.cpp	/^int64_t GetAccountBalance(CWalletDB& walletdb, con/
+GetAdjustedTime	timedata.cpp	/^int64_t GetAdjustedTime()$/
+GetAmounts	wallet.cpp	/^void CWalletTx::GetAmounts(list<pair<CTxDestinatio/
+GetBlockTrust	main.cpp	/^uint256 CBlockIndex::GetBlockTrust() const$/
+GetBucketPosition	addrman.cpp	/^int CAddrInfo::GetBucketPosition(const uint256 &nK/
+GetByte	netbase.cpp	/^unsigned int CNetAddr::GetByte(int n) const$/
+GetCScript	keystore.cpp	/^bool CBasicKeyStore::GetCScript(const CScriptID &h/
+GetChance	addrman.cpp	/^double CAddrInfo::GetChance(int64_t nNow) const$/
+GetCommand	protocol.cpp	/^std::string CMessageHeader::GetCommand() const$/
+GetHash	alert.cpp	/^uint256 CAlert::GetHash() const$/
+GetIn6Addr	netbase.cpp	/^bool CNetAddr::GetIn6Addr(struct in6_addr* pipv6Ad/
+GetInAddr	netbase.cpp	/^bool CNetAddr::GetInAddr(struct in_addr* pipv4Addr/
+GetKey	crypter.cpp	/^bool CCryptoKeyStore::GetKey(const CKeyID &address/
+GetLastStakeModifier	kernel.cpp	/^static bool GetLastStakeModifier(const CBlockIndex/
+GetLegacySigOpCount	main.cpp	/^unsigned int GetLegacySigOpCount(const CTransactio/
+GetListenPort	net.cpp	/^unsigned short GetListenPort()$/
+GetLocal	net.cpp	/^bool GetLocal(CService& addr, const CNetAddr *padd/
+GetLocalAddress	net.cpp	/^CAddress GetLocalAddress(const CNetAddr *paddrPeer/
+GetNameProxy	netbase.cpp	/^bool GetNameProxy(CService &nameProxyOut) {$/
+GetNetwork	netbase.cpp	/^enum Network CNetAddr::GetNetwork() const$/
+GetNewBucket	addrman.cpp	/^int CAddrInfo::GetNewBucket(const uint256& nKey, c/
+GetNodeSignals	net.cpp	/^CNodeSignals& GetNodeSignals() { return g_signals;/
+GetOpName	script.cpp	/^const char* GetOpName(opcodetype opcode)$/
+GetP2SHSigOpCount	main.cpp	/^unsigned int GetP2SHSigOpCount(const CTransaction&/
+GetPidFile	util.cpp	/^boost::filesystem::path GetPidFile()$/
+GetPoSKernelPS	rpcblockchain.cpp	/^double GetPoSKernelPS()$/
+GetPoWMHashPS	rpcblockchain.cpp	/^double GetPoWMHashPS()$/
+GetPrivKey	key.cpp	/^CPrivKey CKey::GetPrivKey() const {$/
+GetProxy	netbase.cpp	/^bool GetProxy(enum Network net, proxyType &proxyIn/
+GetPubKey	crypter.cpp	/^bool CCryptoKeyStore::GetPubKey(const CKeyID &addr/
+GetStakeSplitThreshold	wallet.cpp	/^static int64_t GetStakeSplitThreshold() { return 2/
+GetTransactionsUpdated	txmempool.cpp	/^unsigned int CTxMemPool::GetTransactionsUpdated() /
+GetTxnOutputType	script.cpp	/^const char* GetTxnOutputType(txnouttype t)$/
+GetWarnings	main.cpp	/^string GetWarnings(string strFor)$/
+GetnScore	net.cpp	/^int GetnScore(const CService& addr)$/
+Good_	addrman.cpp	/^void CAddrMan::Good_(const CService &addr, int64_t/
+HMAC_SHA256_Final	pbkdf2.cpp	/^HMAC_SHA256_Final(unsigned char digest[32], HMAC_S/
+HMAC_SHA256_Init	pbkdf2.cpp	/^HMAC_SHA256_Init(HMAC_SHA256_CTX * ctx, const void/
+HMAC_SHA256_Update	pbkdf2.cpp	/^HMAC_SHA256_Update(HMAC_SHA256_CTX * ctx, const vo/
+HMAC_SHA512_Final	hash.cpp	/^int HMAC_SHA512_Final(unsigned char *pmd, HMAC_SHA/
+HMAC_SHA512_Init	hash.cpp	/^int HMAC_SHA512_Init(HMAC_SHA512_CTX *pctx, const /
+HMAC_SHA512_Update	hash.cpp	/^int HMAC_SHA512_Update(HMAC_SHA512_CTX *pctx, cons/
+HTTPAuthorized	rpcserver.cpp	/^bool HTTPAuthorized(map<string, string>& mapHeader/
+HTTPReply	rpcprotocol.cpp	/^string HTTPReply(int nStatus, const string& strMsg/
+HandleSIGHUP	init.cpp	/^void HandleSIGHUP(int)$/
+HandleSIGTERM	init.cpp	/^void HandleSIGTERM(int)$/
+HaveCScript	keystore.cpp	/^bool CBasicKeyStore::HaveCScript(const CScriptID& /
+HaveNameProxy	netbase.cpp	/^bool HaveNameProxy() {$/
+HelpMessage	init.cpp	/^std::string HelpMessage()$/
+HelpRequiringPassphrase	rpcwallet.cpp	/^std::string HelpRequiringPassphrase()$/
+Init	netbase.cpp	/^void CNetAddr::Init()$/
+InitError	init.cpp	/^bool static InitError(const std::string &str)$/
+InitWarning	init.cpp	/^bool static InitWarning(const std::string &str)$/
+InsertBlockIndex	txdb-leveldb.cpp	/^static CBlockIndex *InsertBlockIndex(uint256 hash)/
+IsCanonicalBlockSignature	main.cpp	/^bool static IsCanonicalBlockSignature(CBlock* pblo/
+IsCompressedOrUncompressedPubKey	script.cpp	/^bool IsCompressedOrUncompressedPubKey(const valtyp/
+IsDERSignature	script.cpp	/^bool IsDERSignature(const valtype &vchSig, bool ha/
+IsDefinedHashtypeSignature	script.cpp	/^bool static IsDefinedHashtypeSignature(const valty/
+IsFinalTx	main.cpp	/^bool IsFinalTx(const CTransaction &tx, int nBlockH/
+IsFullyValid	key.cpp	/^bool CPubKey::IsFullyValid() const {$/
+IsI2P	netbase.cpp	/^bool CNetAddr::IsI2P() const$/
+IsIPv4	netbase.cpp	/^bool CNetAddr::IsIPv4() const$/
+IsIPv6	netbase.cpp	/^bool CNetAddr::IsIPv6() const$/
+IsInEffect	alert.cpp	/^bool CAlert::IsInEffect() const$/
+IsKeyType	walletdb.cpp	/^static bool IsKeyType(string strType)$/
+IsKnownType	protocol.cpp	/^bool CInv::IsKnownType() const$/
+IsLocal	netbase.cpp	/^bool CNetAddr::IsLocal() const$/
+IsLowDERSignature	script.cpp	/^bool static IsLowDERSignature(const valtype &vchSi/
+IsMulticast	netbase.cpp	/^bool CNetAddr::IsMulticast() const$/
+IsNull	alert.cpp	/^bool CAlert::IsNull() const$/
+IsProxy	netbase.cpp	/^bool IsProxy(const CNetAddr &addr) {$/
+IsRFC1918	netbase.cpp	/^bool CNetAddr::IsRFC1918() const$/
+IsRFC3849	netbase.cpp	/^bool CNetAddr::IsRFC3849() const$/
+IsRFC3927	netbase.cpp	/^bool CNetAddr::IsRFC3927() const$/
+IsRFC3964	netbase.cpp	/^bool CNetAddr::IsRFC3964() const$/
+IsRFC4193	netbase.cpp	/^bool CNetAddr::IsRFC4193() const$/
+IsRFC4380	netbase.cpp	/^bool CNetAddr::IsRFC4380() const$/
+IsRFC4843	netbase.cpp	/^bool CNetAddr::IsRFC4843() const$/
+IsRFC4862	netbase.cpp	/^bool CNetAddr::IsRFC4862() const$/
+IsRFC6052	netbase.cpp	/^bool CNetAddr::IsRFC6052() const$/
+IsRFC6145	netbase.cpp	/^bool CNetAddr::IsRFC6145() const$/
+IsRoutable	netbase.cpp	/^bool CNetAddr::IsRoutable() const$/
+IsStandardTx	main.cpp	/^bool IsStandardTx(const CTransaction& tx, string& /
+IsSuperMajority	main.cpp	/^bool CBlockIndex::IsSuperMajority(int minVersion, /
+IsTerrible	addrman.cpp	/^bool CAddrInfo::IsTerrible(int64_t nNow) const$/
+IsTor	netbase.cpp	/^bool CNetAddr::IsTor() const$/
+IsValid	netbase.cpp	/^bool CNetAddr::IsValid() const$/
+JSONRPCError	rpcprotocol.cpp	/^Object JSONRPCError(int code, const string& messag/
+JSONRPCReply	rpcprotocol.cpp	/^string JSONRPCReply(const Value& result, const Val/
+JSONRPCReplyObj	rpcprotocol.cpp	/^Object JSONRPCReplyObj(const Value& result, const /
+JSONRPCRequest	rpcprotocol.cpp	/^string JSONRPCRequest(const string& strMethod, con/
+LeaveCritical	sync.cpp	/^void LeaveCritical()$/
+LimitOrphanTxSize	main.cpp	/^unsigned int LimitOrphanTxSize(unsigned int nMaxOr/
+ListReceived	rpcwallet.cpp	/^Value ListReceived(const Array& params, bool fByAc/
+ListTransactions	rpcwallet.cpp	/^void ListTransactions(const CWalletTx& wtx, const /
+Load	key.cpp	/^bool CKey::Load(CPrivKey &privkey, CPubKey &vchPub/
+LoadBlockIndex	main.cpp	/^bool LoadBlockIndex(bool fAllowNew)$/
+LoadCScript	wallet.cpp	/^bool CWallet::LoadCScript(const CScript& redeemScr/
+LoadCryptedKey	wallet.cpp	/^bool CWallet::LoadCryptedKey(const CPubKey &vchPub/
+LoadExternalBlockFile	main.cpp	/^bool LoadExternalBlockFile(FILE* fileIn)$/
+LoadKeyMetadata	wallet.cpp	/^bool CWallet::LoadKeyMetadata(const CPubKey &pubke/
+LoadWallet	walletdb.cpp	/^DBErrors CWalletDB::LoadWallet(CWallet* pwallet)$/
+Lock	crypter.cpp	/^bool CCryptoKeyStore::Lock()$/
+LockStack	sync.cpp	/^typedef std::vector< std::pair<void*, CLockLocatio/
+LockWallet	rpcwallet.cpp	/^static void LockWallet(CWallet* pWallet)$/
+LocksHeld	sync.cpp	/^std::string LocksHeld()$/
+Lookup	netbase.cpp	/^bool Lookup(const char *pszName, std::vector<CServ/
+LookupHost	netbase.cpp	/^bool LookupHost(const char *pszName, std::vector<C/
+LookupIntern	netbase.cpp	/^bool static LookupIntern(const char *pszName, std:/
+LookupNumeric	netbase.cpp	/^bool LookupNumeric(const char *pszName, CService& /
+MakeMock	db.cpp	/^void CDBEnv::MakeMock()$/
+MakeNewKey	key.cpp	/^void CKey::MakeNewKey(bool fCompressedIn) {$/
+MakeSameSize	script.cpp	/^\/\/ resize process. MakeSameSize() is currently o/
+MakeTried	addrman.cpp	/^void CAddrMan::MakeTried(CAddrInfo& info, int nId)/
+MapCheckpoints	checkpoints.cpp	/^    typedef std::map<int, uint256> MapCheckpoints;/
+MapPort	net.cpp	/^void MapPort(bool fUseUPnP)$/
+MaybePushAddress	rpcwallet.cpp	/^static void MaybePushAddress(Object & entry, const/
+MutexName	sync.cpp	/^    std::string MutexName() const { return mutexNa/
+Neuter	key.cpp	/^CExtPubKey CExtKey::Neuter() const {$/
+NodeSyncScore	net.cpp	/^static int64_t NodeSyncScore(const CNode *pnode) {/
+Open	db.cpp	/^bool CDBEnv::Open(boost::filesystem::path pathEnv_/
+OpenBlockFile	main.cpp	/^FILE* OpenBlockFile(unsigned int nFile, unsigned i/
+OpenNetworkConnection	net.cpp	/^bool OpenNetworkConnection(const CAddress& addrCon/
+PBKDF2_SHA256	pbkdf2.cpp	/^PBKDF2_SHA256(const uint8_t * passwd, size_t passw/
+ParseHashO	rpcserver.cpp	/^uint256 ParseHashO(const Object& o, string strKey)/
+ParseHashV	rpcserver.cpp	/^uint256 ParseHashV(const Value& v, string strName)/
+ParseHexO	rpcserver.cpp	/^vector<unsigned char> ParseHexO(const Object& o, s/
+ParseHexV	rpcserver.cpp	/^vector<unsigned char> ParseHexV(const Value& v, st/
+ParseNetwork	netbase.cpp	/^enum Network ParseNetwork(std::string net) {$/
+PrintBlockTree	main.cpp	/^void PrintBlockTree()$/
+ProcessBlock	main.cpp	/^bool ProcessBlock(CNode* pfrom, CBlock* pblock)$/
+ProcessOneShot	net.cpp	/^void static ProcessOneShot()$/
+PushGetBlocks	main.cpp	/^void PushGetBlocks(CNode* pnode, CBlockIndex* pind/
+R	scrypt.cpp	/^#define R(a, b) (((a) << (b)) | ((a) >> (32 - (b))/
+RPCAcceptHandler	rpcserver.cpp	/^static void RPCAcceptHandler(boost::shared_ptr< ba/
+RPCConvertValues	rpcclient.cpp	/^Array RPCConvertValues(const std::string &strMetho/
+RPCListen	rpcserver.cpp	/^static void RPCListen(boost::shared_ptr< basic_soc/
+RPCTypeCheck	rpcserver.cpp	/^void RPCTypeCheck(const Object& o,$/
+RandAddSeed	util.cpp	/^void RandAddSeed()$/
+RandAddSeedPerfmon	util.cpp	/^void RandAddSeedPerfmon()$/
+ReadBestInvalidTrust	txdb-leveldb.cpp	/^bool CTxDB::ReadBestInvalidTrust(CBigNum& bnBestIn/
+ReadDiskTx	txdb-leveldb.cpp	/^bool CTxDB::ReadDiskTx(uint256 hash, CTransaction&/
+ReadFromDisk	main.cpp	/^bool CTransaction::ReadFromDisk(CTxDB& txdb, COutP/
+ReadHTTPHeaders	rpcprotocol.cpp	/^int ReadHTTPHeaders(std::basic_istream<char>& stre/
+ReadHTTPMessage	rpcprotocol.cpp	/^int ReadHTTPMessage(std::basic_istream<char>& stre/
+ReadHTTPRequestLine	rpcprotocol.cpp	/^bool ReadHTTPRequestLine(std::basic_istream<char>&/
+ReadHTTPStatus	rpcprotocol.cpp	/^int ReadHTTPStatus(std::basic_istream<char>& strea/
+ReadHashBestChain	txdb-leveldb.cpp	/^bool CTxDB::ReadHashBestChain(uint256& hashBestCha/
+ReadTxIndex	txdb-leveldb.cpp	/^bool CTxDB::ReadTxIndex(uint256 hash, CTxIndex& tx/
+Recover	key.cpp	/^    bool Recover(const uint256 &hash, const unsign/
+RecoverCompact	key.cpp	/^bool CPubKey::RecoverCompact(const uint256 &hash, /
+RecvLine	net.cpp	/^bool RecvLine(SOCKET hSocket, string& strLine)$/
+RegisterNodeSignals	main.cpp	/^void RegisterNodeSignals(CNodeSignals& nodeSignals/
+RegisterWallet	main.cpp	/^void RegisterWallet(CWalletInterface* pwalletIn) {/
+RelayTo	alert.cpp	/^bool CAlert::RelayTo(CNode* pnode) const$/
+RelayWalletTransaction	wallet.cpp	/^void CWalletTx::RelayWalletTransaction(CTxDB& txdb/
+RemoveDb	db.cpp	/^bool CDBEnv::RemoveDb(const string& strFile)$/
+RenameOver	util.cpp	/^bool RenameOver(boost::filesystem::path src, boost/
+ResendWalletTransactions	main.cpp	/^void ResendWalletTransactions(bool fForce) {$/
+ReserealizeBlockSignature	main.cpp	/^bool static ReserealizeBlockSignature(CBlock* pblo/
+ReserealizeSignature	key.cpp	/^bool CKey::ReserealizeSignature(std::vector<unsign/
+Rewrite	db.cpp	/^bool CDB::Rewrite(const string& strFile, const cha/
+SHA256Transform	miner.cpp	/^void SHA256Transform(void* pstate, void* pinput, c/
+Salvage	db.cpp	/^bool CDBEnv::Salvage(std::string strFile, bool fAg/
+ScanBatch	txdb-leveldb.cpp	/^bool CTxDB::ScanBatch(const CDataStream &key, stri/
+SelectBlockFromCandidates	kernel.cpp	/^static bool SelectBlockFromCandidates(vector<pair</
+SelectCoinsMinConfByCoinAge	wallet.cpp	/^bool CWallet::SelectCoinsMinConfByCoinAge(int64_t /
+SendMessages	main.cpp	/^bool SendMessages(CNode* pto, bool fSendTrickle)$/
+SetBestChain	wallet.cpp	/^void CWallet::SetBestChain(const CBlockLocator& lo/
+SetCrypted	crypter.cpp	/^bool CCryptoKeyStore::SetCrypted()$/
+SetIP	netbase.cpp	/^void CNetAddr::SetIP(const CNetAddr& ipIn)$/
+SetKey	crypter.cpp	/^bool CCrypter::SetKey(const CKeyingMaterial& chNew/
+SetMaster	key.cpp	/^void CExtKey::SetMaster(const unsigned char *seed,/
+SetMaxVersion	wallet.cpp	/^bool CWallet::SetMaxVersion(int nVersion)$/
+SetMerkleBranch	main.cpp	/^int CMerkleTx::SetMerkleBranch(const CBlock* pbloc/
+SetMinVersion	wallet.cpp	/^bool CWallet::SetMinVersion(enum WalletFeature nVe/
+SetNameProxy	netbase.cpp	/^bool SetNameProxy(CService addrProxy) {$/
+SetNull	alert.cpp	/^void CUnsignedAlert::SetNull()$/
+SetPrivKey	key.cpp	/^bool CKey::SetPrivKey(const CPrivKey &privkey, boo/
+SetProxy	netbase.cpp	/^bool SetProxy(enum Network net, CService addrProxy/
+SetPubKey	key.cpp	/^    bool SetPubKey(const CPubKey &pubkey) {$/
+SetSpecial	netbase.cpp	/^bool CNetAddr::SetSpecial(const std::string &strNa/
+ShrinkDebugFile	util.cpp	/^void ShrinkDebugFile()$/
+Shutdown	init.cpp	/^void Shutdown()$/
+ShutdownRequested	init.cpp	/^bool ShutdownRequested()$/
+Sign	key.cpp	/^    bool Sign(const uint256 &hash, std::vector<uns/
+Sign1	script.cpp	/^bool Sign1(const CKeyID& address, const CKeyStore&/
+SignBlock	main.cpp	/^bool CBlock::SignBlock(CWallet& wallet, int64_t nF/
+SignCompact	key.cpp	/^    bool SignCompact(const uint256 &hash, unsigned/
+SignN	script.cpp	/^bool SignN(const vector<valtype>& multisigdata, co/
+Socks5	netbase.cpp	/^bool static Socks5(string strDest, int port, SOCKE/
+Solver	script.cpp	/^bool Solver(const CScript& scriptPubKey, txnouttyp/
+SplitHostPort	netbase.cpp	/^void SplitHostPort(std::string in, int &portOut, s/
+StartRPCThreads	rpcserver.cpp	/^void StartRPCThreads()$/
+StartSync	net.cpp	/^void static StartSync(const vector<CNode*> &vNodes/
+SwapRandom	addrman.cpp	/^void CAddrMan::SwapRandom(unsigned int nRndPos1, u/
+SyncWithWallets	main.cpp	/^void SyncWithWallets(const CTransaction &tx, const/
+ThreadDNSAddressSeed	net.cpp	/^void ThreadDNSAddressSeed()$/
+ThreadImport	main.cpp	/^void ThreadImport(std::vector<boost::filesystem::p/
+ThreadMapPort	net.cpp	/^void ThreadMapPort()$/
+ThreadOpenAddedConnections	net.cpp	/^void ThreadOpenAddedConnections()$/
+ThreadOpenConnections	net.cpp	/^void ThreadOpenConnections()$/
+ThreadSocketHandler	net.cpp	/^void ThreadSocketHandler()$/
+ToString	alert.cpp	/^std::string CUnsignedAlert::ToString() const$/
+ToStringIP	netbase.cpp	/^std::string CNetAddr::ToStringIP() const$/
+TweakPublic	key.cpp	/^    bool TweakPublic(const unsigned char vchTweak[/
+TweakSecret	key.cpp	/^    static bool TweakSecret(unsigned char vchSecre/
+TxItems	walletdb.cpp	/^    typedef multimap<int64_t, TxPair > TxItems;$/
+TxPair	walletdb.cpp	/^    typedef pair<CWalletTx*, CAccountingEntry*> Tx/
+TxPriority	miner.cpp	/^typedef boost::tuple<double, double, CTransaction*/
+TxToJSON	rpcrawtransaction.cpp	/^void TxToJSON(const CTransaction& tx, const uint25/
+TxnBegin	txdb-leveldb.cpp	/^bool CTxDB::TxnBegin()$/
+TxnCommit	txdb-leveldb.cpp	/^bool CTxDB::TxnCommit()$/
+Unlock	crypter.cpp	/^bool CCryptoKeyStore::Unlock(const CKeyingMaterial/
+UnregisterAllWallets	main.cpp	/^void UnregisterAllWallets() {$/
+UnregisterNodeSignals	main.cpp	/^void UnregisterNodeSignals(CNodeSignals& nodeSigna/
+UnregisterWallet	main.cpp	/^void UnregisterWallet(CWalletInterface* pwalletIn)/
+UpdateTxIndex	txdb-leveldb.cpp	/^bool CTxDB::UpdateTxIndex(uint256 hash, const CTxI/
+ValueFromAmount	rpcserver.cpp	/^Value ValueFromAmount(int64_t amount)$/
+Verify	db.cpp	/^CDBEnv::VerifyResult CDBEnv::Verify(std::string st/
+VerifyCompact	key.cpp	/^bool CPubKey::VerifyCompact(const uint256 &hash, c/
+WalletTxToJSON	rpcwallet.cpp	/^void WalletTxToJSON(const CWalletTx& wtx, Object& /
+WriteBestInvalidTrust	txdb-leveldb.cpp	/^bool CTxDB::WriteBestInvalidTrust(CBigNum bnBestIn/
+WriteBlockIndex	txdb-leveldb.cpp	/^bool CTxDB::WriteBlockIndex(const CDiskBlockIndex&/
+WriteHashBestChain	txdb-leveldb.cpp	/^bool CTxDB::WriteHashBestChain(uint256 hashBestCha/
+activeTxn	db.cpp	/^    pdb(NULL), activeTxn(NULL)$/
+addUnchecked	txmempool.cpp	/^bool CTxMemPool::addUnchecked(const uint256& hash,/
+addmultisigaddress	rpcwallet.cpp	/^Value addmultisigaddress(const Array& params, bool/
+addnode	rpcnet.cpp	/^Value addnode(const Array& params, bool fHelp)$/
+addredeemscript	rpcwallet.cpp	/^Value addredeemscript(const Array& params, bool fH/
+backupwallet	rpcwallet.cpp	/^Value backupwallet(const Array& params, bool fHelp/
+be32enc	pbkdf2.cpp	/^be32enc(void *pp, uint32_t x)$/
+block	miner.cpp	/^\/\/ CreateNewBlock: create new block (without pro/
+blockToJSON	rpcblockchain.cpp	/^Object blockToJSON(const CBlock& block, const CBlo/
+clear	txmempool.cpp	/^void CTxMemPool::clear()$/
+convertSeed6	chainparams.cpp	/^static void convertSeed6(std::vector<CAddress> &vS/
+createrawtransaction	rpcrawtransaction.cpp	/^Value createrawtransaction(const Array& params, bo/
+dbenv	db.cpp	/^CDBEnv::CDBEnv() : dbenv(DB_CXX_NO_EXCEPTIONS)$/
+decoderawtransaction	rpcrawtransaction.cpp	/^Value decoderawtransaction(const Array& params, bo/
+decodescript	rpcrawtransaction.cpp	/^Value decodescript(const Array& params, bool fHelp/
+dumpprivkey	rpcdump.cpp	/^Value dumpprivkey(const Array& params, bool fHelp)/
+dumpwallet	rpcdump.cpp	/^Value dumpwallet(const Array& params, bool fHelp)$/
+encryptwallet	rpcwallet.cpp	/^Value encryptwallet(const Array& params, bool fHel/
+execute	rpcserver.cpp	/^json_spirit::Value CRPCTable::execute(const std::s/
+gcd	wallet.cpp	/^int64_t gcd(int64_t n,int64_t m) { return m == 0 ?/
+getaccount	rpcwallet.cpp	/^Value getaccount(const Array& params, bool fHelp)$/
+getaccountaddress	rpcwallet.cpp	/^Value getaccountaddress(const Array& params, bool /
+getaddednodeinfo	rpcnet.cpp	/^Value getaddednodeinfo(const Array& params, bool f/
+getaddressesbyaccount	rpcwallet.cpp	/^Value getaddressesbyaccount(const Array& params, b/
+getbalance	rpcwallet.cpp	/^Value getbalance(const Array& params, bool fHelp)$/
+getbestblockhash	rpcblockchain.cpp	/^Value getbestblockhash(const Array& params, bool f/
+getblock	rpcblockchain.cpp	/^Value getblock(const Array& params, bool fHelp)$/
+getblockbynumber	rpcblockchain.cpp	/^Value getblockbynumber(const Array& params, bool f/
+getblockcount	rpcblockchain.cpp	/^Value getblockcount(const Array& params, bool fHel/
+getblockhash	rpcblockchain.cpp	/^Value getblockhash(const Array& params, bool fHelp/
+getcheckpoint	rpcblockchain.cpp	/^Value getcheckpoint(const Array& params, bool fHel/
+getdifficulty	rpcblockchain.cpp	/^Value getdifficulty(const Array& params, bool fHel/
+getnettotals	rpcnet.cpp	/^Value getnettotals(const Array& params, bool fHelp/
+getnewaddress	rpcwallet.cpp	/^Value getnewaddress(const Array& params, bool fHel/
+getnewpubkey	rpcwallet.cpp	/^Value getnewpubkey(const Array& params, bool fHelp/
+getpeerinfo	rpcnet.cpp	/^Value getpeerinfo(const Array& params, bool fHelp)/
+getrawmempool	rpcblockchain.cpp	/^Value getrawmempool(const Array& params, bool fHel/
+getrawtransaction	rpcrawtransaction.cpp	/^Value getrawtransaction(const Array& params, bool /
+getreceivedbyaccount	rpcwallet.cpp	/^Value getreceivedbyaccount(const Array& params, bo/
+getreceivedbyaddress	rpcwallet.cpp	/^Value getreceivedbyaddress(const Array& params, bo/
+gettransaction	rpcwallet.cpp	/^Value gettransaction(const Array& params, bool fHe/
+getwork	rpcmining.cpp	/^Value getwork(const Array& params, bool fHelp)$/
+help	rpcserver.cpp	/^string CRPCTable::help(string strCommand) const$/
+if	main.cpp	/^    if (nDataOut > 1 && nDataOut > tx.vout.size()/
+importprivkey	rpcdump.cpp	/^Value importprivkey(const Array& params, bool fHel/
+init_blockindex	txdb-leveldb.cpp	/^static void init_blockindex(leveldb::Options& opti/
+interval	kernel.cpp	/^\/\/ Get stake modifier selection interval (in sec/
+kernel	kernel.cpp	/^\/\/ kernel (input 0) must meet the formula$/
+keypoolrefill	rpcwallet.cpp	/^Value keypoolrefill(const Array& params, bool fHel/
+listaccounts	rpcwallet.cpp	/^Value listaccounts(const Array& params, bool fHelp/
+listaddressgroupings	rpcwallet.cpp	/^Value listaddressgroupings(const Array& params, bo/
+listreceivedbyaccount	rpcwallet.cpp	/^Value listreceivedbyaccount(const Array& params, b/
+listreceivedbyaddress	rpcwallet.cpp	/^Value listreceivedbyaddress(const Array& params, b/
+listsinceblock	rpcwallet.cpp	/^Value listsinceblock(const Array& params, bool fHe/
+listtransactions	rpcwallet.cpp	/^Value listtransactions(const Array& params, bool f/
+listunspent	rpcrawtransaction.cpp	/^Value listunspent(const Array& params, bool fHelp)/
+locking_callback	util.cpp	/^void locking_callback(int mode, int i, const char*/
+lookup	txmempool.cpp	/^bool CTxMemPool::lookup(uint256 hash, CTransaction/
+machine	script.cpp	/^\/\/ Script is a stack machine (like Forth) that e/
+mapNewBlock_t	rpcmining.cpp	/^    typedef map<uint256, pair<CBlock*, CScript> > /
+movecmd	rpcwallet.cpp	/^Value movecmd(const Array& params, bool fHelp)$/
+noui_InitMessage	noui.cpp	/^static void noui_InitMessage(const std::string &me/
+noui_ThreadSafeAskFee	noui.cpp	/^static bool noui_ThreadSafeAskFee(int64_t nFeeRequ/
+noui_connect	noui.cpp	/^void noui_connect()$/
+operator	netbase.cpp	/^bool operator<(const CNetAddr& a, const CNetAddr& /
+ping	rpcnet.cpp	/^Value ping(const Array& params, bool fHelp)$/
+pop_lock	sync.cpp	/^static void pop_lock()$/
+potential_deadlock_detected	sync.cpp	/^static void potential_deadlock_detected(const std:/
+pt_to_time_t	rpcdump.cpp	/^std::time_t pt_to_time_t(const bt::ptime& pt)$/
+push_lock	sync.cpp	/^static void push_lock(void* c, const CLockLocation/
+queryHashes	txmempool.cpp	/^void CTxMemPool::queryHashes(std::vector<uint256>&/
+remove	txmempool.cpp	/^bool CTxMemPool::remove(const CTransaction &tx, bo/
+removeConflicts	txmempool.cpp	/^bool CTxMemPool::removeConflicts(const CTransactio/
+rfc1123Time	rpcprotocol.cpp	/^static string rfc1123Time()$/
+scanhash_scrypt	scrypt.cpp	/^unsigned int scanhash_scrypt(block_header *pdata, /
+scrypt	scrypt.cpp	/^uint256 scrypt(const void* data, size_t datalen, c/
+scrypt_2way	scrypt.cpp	/^static void scrypt_2way(const void *input1, const /
+scrypt_3way	scrypt.cpp	/^static void scrypt_3way(const void *input1, const /
+scrypt_blockhash	scrypt.cpp	/^uint256 scrypt_blockhash(const void* input)$/
+scrypt_buffer_alloc	scrypt.cpp	/^void *scrypt_buffer_alloc() {$/
+scrypt_buffer_free	scrypt.cpp	/^void scrypt_buffer_free(void *scratchpad)$/
+scrypt_core	scrypt.cpp	/^static inline void scrypt_core(unsigned int *X, un/
+scrypt_hash	scrypt.cpp	/^uint256 scrypt_hash(const void* input, size_t inpu/
+scrypt_nosalt	scrypt.cpp	/^uint256 scrypt_nosalt(const void* input, size_t in/
+scrypt_salted_hash	scrypt.cpp	/^uint256 scrypt_salted_hash(const void* input, size/
+scrypt_salted_multiround_hash	scrypt.cpp	/^uint256 scrypt_salted_multiround_hash(const void* /
+section	kernel.cpp	/^\/\/ Get selection interval section (in seconds)$/
+sendfrom	rpcwallet.cpp	/^Value sendfrom(const Array& params, bool fHelp)$/
+sendmany	rpcwallet.cpp	/^Value sendmany(const Array& params, bool fHelp)$/
+sendtoaddress	rpcwallet.cpp	/^Value sendtoaddress(const Array& params, bool fHel/
+setaccount	rpcwallet.cpp	/^Value setaccount(const Array& params, bool fHelp)$/
+sigdata_type	script.cpp	/^    typedef boost::tuple<uint256, std::vector<unsi/
+signmessage	rpcwallet.cpp	/^Value signmessage(const Array& params, bool fHelp)/
+signrawtransaction	rpcrawtransaction.cpp	/^Value signrawtransaction(const Array& params, bool/
+stop	rpcserver.cpp	/^Value stop(const Array& params, bool fHelp)$/
+switch	netbase.cpp	/^        switch(ourNet) {$/
+tallyitem	rpcwallet.cpp	/^    tallyitem()$/
+transaction	script.cpp	/^\/\/ twice for every transaction (once when accept/
+txout	kernel.cpp	/^\/\/ The purpose of stake modifier is to prevent a/
+validateaddress	rpcmisc.cpp	/^Value validateaddress(const Array& params, bool fH/
+validatepubkey	rpcmisc.cpp	/^Value validatepubkey(const Array& params, bool fHe/
+verifymessage	rpcmisc.cpp	/^Value verifymessage(const Array& params, bool fHel/
+walletlock	rpcwallet.cpp	/^Value walletlock(const Array& params, bool fHelp)$/
+walletpassphrase	rpcwallet.cpp	/^Value walletpassphrase(const Array& params, bool f/
+xor_salsa8	scrypt.cpp	/^static inline void xor_salsa8(unsigned int B[16], /

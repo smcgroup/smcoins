@@ -1,0 +1,1 @@
+make -f makefile.osx RELEASE=true 64BIT=true
